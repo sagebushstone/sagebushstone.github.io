@@ -28,6 +28,10 @@
     text-decoration: none;
 }
 
+.menu a:hover {
+    color: green;
+}
+
 
 
 .hero {
@@ -39,4 +43,25 @@ body {
     display: block;
     margin: 0px;
     background-color: #FFFDFD;
+}
+
+.column-2 {
+    display: flex;
+    margin-left:100px;
+}
+.flex-column {
+    display: flex;
+}
+
+.flex-column div {
+    width: 50%;
+    height: fit-content;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.flex-column img {
+    width: 30%;
+    height: fit-content;
+    margin-left: 2em;
+    margin-right: 1em;
 }

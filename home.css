@@ -1,42 +1,37 @@
 /* Home Page Styles */
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*padding: 10px;*/
-    margin:10px;
-
-    border-top: 5px solid #94A67A;
-    border-bottom: 5px solid #B45326;
-}
-
-.logo {
-    width: 15%;
-}
-
-.menu {
-    display: flex;
-    gap: 3em;
-    font-size: 18px;
-    list-style-type: none;
-    padding-right:3%;
-}
-
-.menu a {
-    color: black;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: green;
-}
-
-
-
 .hero {
-    width: 100%;
+    width: 100vw;
+    height: 70vh;
     max-width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('Images/homeHero.jpg'); 
+}
+
+.overlayBack {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    
+    background: linear-gradient(90deg, rgba(46, 51, 59, 100), rgba(0,0,0,0));
+    mix-blend-mode: multiply;
+
+    display: flex;
+}
+.overlayWords {
+    position: absolute;
+    margin-left: 4em;
+
+    color:white;
+}
+.overlayWords h1 {
+    font-size: 5em;
+}
+.overlayWords h2 {
+    font-size: 2em;
 }
 
 body {
@@ -51,17 +46,15 @@ body {
 }
 .flex-column {
     display: flex;
-}
-
-.flex-column div {
+    column-gap: 2em;
     width: 50%;
     height: fit-content;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
-.flex-column img {
-    width: 30%;
-    height: fit-content;
+
+.column-2 img {
+    width: 25em;
     margin-left: 2em;
-    margin-right: 1em;
+    margin-right: 2em;
 }

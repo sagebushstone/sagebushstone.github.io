@@ -1,0 +1,54 @@
+/* STYLES FOR THE REVIEWS PAGE */
+
+/* HEADER */
+h1 {
+    font-weight: bolder;
+    margin-left: 3em;
+
+}
+
+/* ALL REVIEWS STYLE */
+.review {
+    position: relative;
+    display: inline-block;
+}
+.img {
+    position: relative;
+    width: 30%;
+}
+.text {
+    background-color: #94A67A;
+    padding: 2em;
+}
+
+/* REVIEW MARTHA MONK */
+#martha-monk {
+    background-color: blue;
+}
+#martha-monk .img {
+    left: 5%;
+    margin-top: 2em;
+    z-index: 1;
+}
+#martha-monk .text {
+    padding-left: 5em;
+    float: right;
+    right: 0px;
+    top: 10%;
+    width: 60%;   
+}
+
+/* REVIEW SHERRY DANIEL */
+#sherry-daniel {
+    background-color: red;
+}
+#sherry-daniel .img {
+    float: right;
+    right: 5%;
+}
+
+#sherry-daniel .text {
+    margin-right: 35%;
+    padding-left: 7%;
+    margin-top: 3em;
+}

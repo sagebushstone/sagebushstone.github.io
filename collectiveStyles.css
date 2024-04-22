@@ -1,5 +1,26 @@
 /* Common styles, like the nav bar, footer, and spacer element */
 
+@font-face {
+    font-family: 'BeVietnamBold';
+    src: url('Fonts/BeVietnamPro-Light.ttf');
+  }
+  @font-face {
+    font-family: 'BeVietnamLight';
+    src: url('Fonts/BeVietnamPro-Light.ttf');
+  }
+html {
+    font-family: 'BeVietnamBold', sans-serif;
+}
+p {
+    font-family: 'BeVietnamLight' !important;
+}
+
+/* RESET */
+html, body {
+    margin:0;
+    padding:0;
+}
+
 .spacer {
     height: 2em;
 }
@@ -13,9 +34,14 @@
     border-top: 5px solid #94A67A;
     border-bottom: 5px solid #B45326;
 }
-
+.navbar a {
+    flex-basis:15%
+}
 .logo {
-    width: 15%;
+    width: 100%;
+}
+.navbar ul {
+    flex-basis:85%;
 }
 
 .menu {
@@ -24,6 +50,7 @@
     font-size: 18px;
     list-style-type: none;
     padding-right:3%;
+    justify-content: flex-end;
 }
 
 .menu a {

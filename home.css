@@ -28,7 +28,10 @@
     color:white;
 }
 .overlayWords h1 {
-    font-size: 5em;
+    font-size: 8em;
+    line-height: 1;
+    margin-top: .3em;
+    margin-bottom: .3em;
 }
 .overlayWords h2 {
     font-size: 2em;
@@ -51,6 +54,7 @@ body {
     height: fit-content;
     margin-left: 3em;
     margin-right: 3em;
+    flex-direction: column;
 }
 
 .column-2 img {

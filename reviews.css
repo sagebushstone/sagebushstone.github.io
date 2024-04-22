@@ -3,7 +3,8 @@
 /* HEADER */
 h1 {
     font-weight: bolder;
-    margin-left: 3em;
+    font-size: 50px;
+    margin-left: 2em;
 
 }
 
@@ -55,4 +56,22 @@ h1 {
     float: right;
     margin-top: 4em;
     width: 60%;   
+}
+
+/* NO PHOTO REVIEWS */
+.noPhotoReviews {
+    display: flex;
+    height: fit-content;
+}
+#nancy-kirchhofer, #jared-kirchhofer, #kayla-caissie {
+    background-color: #94A67A;
+    flex: 1;
+    margin-right: 2em;
+    padding: 2em;
+}
+#kayla-caissie {
+    margin-right: 5%
+}
+#nancy-kirchhofer {
+    margin-left: 5%
 }

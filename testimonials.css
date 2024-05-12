@@ -1,0 +1,75 @@
+/* STYLES FOR THE Testimonials PAGE */
+
+/* HEADER */
+h1 {
+    font-size: 50px;
+    margin-left: 8%;
+}
+
+/* ALL Testimonials STYLE */
+.review {
+    position: relative;
+    display: inline-block;
+}
+.img {
+    position: relative;
+    width: 30%;
+}
+.text {
+    background-color: #94A67A;
+    padding: 2em;
+}
+
+/* REVIEW MARTHA MONK */
+#martha-monk .img {
+    left: 5%;
+    margin-top: 2em;
+    z-index: 1;
+}
+#martha-monk .text {
+    padding-left: 5em;
+    float: right;
+    top: 10%;
+    width: 60%;   
+}
+
+/* REVIEW SHERRY DANIEL */
+#sherry-daniel .img {
+    float: right;
+    right: 5%;
+}
+
+#sherry-daniel .text {
+    margin-right: 35%;
+    padding-left: 7%;
+    margin-top: 7em;
+}
+
+/* REVIEW JONNI MILLER */
+#jonni-miller .img {
+    left: 5%;
+}
+#jonni-miller .text {
+    padding-left: 5em;
+    float: right;
+    margin-top: 4em;
+    width: 60%;   
+}
+
+/* NO PHOTO Testimonials */
+.noPhotoTestimonials {
+    display: flex;
+    height: fit-content;
+}
+#nancy-kirchhofer, #jared-kirchhofer, #kayla-caissie {
+    background-color: #94A67A;
+    flex: 1;
+    margin-right: 2em;
+    padding: 2em;
+}
+#kayla-caissie {
+    margin-right: 5%
+}
+#nancy-kirchhofer {
+    margin-left: 5%
+}

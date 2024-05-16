@@ -1,0 +1,53 @@
+/* STYLES FOR THE CONTACT PAGE */
+
+h1 {
+    margin-left: 8%;
+}
+
+#contactContent {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#gform {
+    margin-left: 8%;
+}
+#gform * {
+    margin-bottom: 15px;
+}
+
+.emailBox {
+    width: 86%;
+    height: auto;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.msgBox {
+    width: 86%;
+    resize: none;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.emailBox:focus, .msgBox:focus {
+    outline: auto;
+    outline-color: #B45326;
+}
+
+#submit {
+    padding: 10px 20px 10px 20px;
+    background-color: #94A67A;
+    border-color: rgb(162, 162, 162);
+    border-radius: 4px;
+    font-size: 15px;
+}
+#submit:hover {
+    cursor: pointer;
+}

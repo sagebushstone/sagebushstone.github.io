@@ -8,10 +8,10 @@
     font-family: 'BeVietnamLight';
     src: url('Fonts/BeVietnamPro-Light.ttf');
   }
-html {
+html, #submit, .emailBox, .msgBox {
     font-family: 'BeVietnamBold', sans-serif;
 }
-p {
+p, #submit, .emailBox, .msgBox {
     font-family: 'BeVietnamLight' !important;
 }
 
